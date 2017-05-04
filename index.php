@@ -17,8 +17,7 @@ require 'email.php';
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Lato|Raleway" rel="stylesheet">
 
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -139,44 +138,26 @@ W łacinie niektóre z często występujących w językach nowożytnych liter u�
     </section>
 
 
-    <section class="cenik">
-        <a  name="cenik"></a>
-        <div class="content-section-a">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-sm-12">
-                    <h2 class="text-center">CENÍK</h2>
-                    <hr class="intro-divider">
-                </div>
-            </div>
-        </div>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text center">
-                       <p class="text-center">Cena je předmětem individuální dohody dle povahy činnosti klienta, kvality podkladů, (ne)možnosti využití "chytrých" nástrojů a dalších rysů naší spolupráce.<br><br>
-                        K rámcové orientaci: 350 Kč je obvyklá cena za hodinu mé práce. Cena za zaúčtování jednoho účetního případu je obvykle 20 Kč a méně.</p>
-                    </div>
-                </div>
-        </div>
-        </div>
-    </section>
 
-    <section class="klienti">
-        <a  name="klienti"></a>
-    <div class="content-section-b">
+    <section class="rekomendacje">
+        <a  name="rekomendacje"></a>
+    <div class="content-section-a">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-sm-12 text-center">
-                    <h2 class="section-heading">KLIENTI</h2>
+                    <h2 class="section-heading">REKOMENDACJE</h2>
                     <hr class="intro-divider">
                 </div>
-                <div class="row ">
-                <div class="col-md-2 col-md-offset-4 col-xs-12 text-center">
-                    <a href="https://www.titulkovani.cz/index.php?t=info" target="_blank"><img class="img-responsive clients bw" src="img/titulkovani.JPG" alt="Logo"></a>
+                <div class="row">
+                <div class="col-md-4">
+                  <p>Lorem ipsum – tekst składający się z łacińskich i quasi-łacińskich wyrazów, mający korzenie w klasycznej łacinie, wzorowany na fragmencie traktatu Cycerona „O granicach dobra i zła” (De finibus bonorum et malorum) napisanego w 45 r. p.n.e. Tekst jest stosowany do demonstracji krojów pisma (czcionek, fontów), kompozycji kolumny itp. Po raz pierwszy został użyty przez nieznanego drukarza w XVI w.</p>
                 </div>
-                    <div class="col-md-3 col-xs-12 text-center">
-                        <a href="http://www.fema-m.cz/" target="_blank"><img class="img-responsive clients bw" src="img/femam.JPG" alt="Logo"></a>
+                    <div class="col-md-4">
+                         <p>Lorem ipsum – tekst składający się z łacińskich i quasi-łacińskich wyrazów, mający korzenie w klasycznej łacinie, wzorowany na fragmencie traktatu Cycerona „O granicach dobra i zła” (De finibus bonorum et malorum) napisanego w 45 r. p.n.e. Tekst jest stosowany do demonstracji krojów pisma (czcionek, fontów), kompozycji kolumny itp. Po raz pierwszy został użyty przez nieznanego drukarza w XVI w.</p>
+                    </div>
+                     <div class="col-md-4">
+                         <p>Lorem ipsum – tekst składający się z łacińskich i quasi-łacińskich wyrazów, mający korzenie w klasycznej łacinie, wzorowany na fragmencie traktatu Cycerona „O granicach dobra i zła” (De finibus bonorum et malorum) napisanego w 45 r. p.n.e. Tekst jest stosowany do demonstracji krojów pisma (czcionek, fontów), kompozycji kolumny itp. Po raz pierwszy został użyty przez nieznanego drukarza w XVI w.</p>
                     </div>
             </div>
         </div>
@@ -185,84 +166,60 @@ W łacinie niektóre z często występujących w językach nowożytnych liter u�
     </section>
 
 
-    <section class="kontakt">
+  <section class="kontakt">
         <a  name="kontakt"></a>
-        <div class="content-section-a">
-            <div class="container">
+    <div class="content-section-b">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
                 <div class="row">
-                    <div class="col-lg-12 col-sm-12 text-center">
-                        <h2 class="section-heading">KONTAKT</h2>
-                        <hr class="intro-divider">
-                    </div>
-                </div>
-              
-<div class= "row">
-    <div class="col-lg-5 text-right profile-picture">
-    <img class="profile " src="img/profil.jpg" alt="">
-    </div>
-<div class="col-lg-7 col-sm-12">
-<h4>Bc. Jan Vokrouhlecký<br>
-IČO: 87592649<br>
-Sídlo: Kišiněvská 668, Praha 10<br>
-</h4></div>
-</div>
-<br>
-
-                <div class="container">
+                    <h2>KONTAKT</h2>
+                   <hr class="intro-divider">
                     <div class="row">
-                        <div class="col-lg-6">
-                            <h4 class="text-center">Kontaktní formulář</h4>
+                        <div class="col-lg-6 text-center">
+                            <h3>O mnie</h3>
+                            <img class="cvphoto" src="img/profile.png" alt="Zdjęcie profilowe">
+                            <p id="aboutme">Lorem ipsum – tekst składający się z łacińskich i quasi-łacińskich wyrazów, mający korzenie w klasycznej łacinie, wzorowany na fragmencie traktatu Cycerona „O granicach dobra i zła” (De finibus bonorum et malorum) napisanego w 45 r. p.n.e. Tekst jest stosowany do demonstracji krojów pisma (czcionek, fontów), kompozycji kolumny itp. Po raz pierwszy został użyty przez nieznanego drukarza w XVI w.</p></div>
+
+
+                        <div class="col-lg-6 text-center" id="form">
+                            <h3>Formularz kontaktowy</h3>
+                            <?php if (!empty($msg)) {
+                                echo "<h5 class='text-center'>$msg</h5>";
+                            } ?>
                             <form method="post" class="form-horizontal">
-                                <?php if (!empty($msg)) {echo "<h5 class='text-center'>$msg</h5>";} ?>
                                 <div class="form-group">
-                                    <label for="jmeno"  class="col-sm-2 control-label">Jméno a příjmení</label>
-                                    <div class="col-sm-10">
-                                        <input type="text" name="name" class="form-control" id="jmeno" placeholder="Jméno a příjmení">
-                                    </div>
+                                    <label for="name">Imię i nazwisko</label>
+                                    <input type="text" class="form-control" id="name" name="name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Adres e-mail</label>
+                                    <input type="email" class="form-control" id="email" name="email">
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="email"  class="col-sm-2 control-label">Email</label>
-                                    <div class="col-sm-10">
-                                        <input type="email" name="email" class="form-control" id="email" placeholder="Emailová adresa">
-                                    </div>
+                                    <label for="textarea">Wiadomość</label>
+                                    <textarea class="form-control" id="textarea" rows="8" name="message"></textarea>
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="zprava" class="col-sm-2 control-label">Zpráva</label>
-                                    <div class="col-sm-10">
-                                        <textarea class="form-control" name="message" id="zprava" rows="12"  placeholder="Vaše zpráva"></textarea>
-                                    </div>
+                                    <button type="submit" name="send-email" class="btn btn-default"  btn-lg">Submit</button>
+                                
                                 </div>
 
-                                <div class="form-group">
-                                    <div class="col-sm-offset-6 col-sm-6">
-                                        <button type="submit" name="send-email" class="btn btn-primary">Odeslat</button>
-                                    </div>
-                                </div>
                             </form>
                         </div>
-
-
-                        <div class="col-lg-6 center-block">
-                            <h4 class="text-center">Adresa kanceláře: Bruselská 11/518 120 00 Praha 2</h4>
-                            <div><div id="map">
-                            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFiqbrhlauX2VKFDHPhuN4AwES4QKk6pY"></script>
-                            <script async defer src="embed-map.js"></script>
-                        </div>
                     </div>
-
                 </div>
             </div>
         </div>
-            </div>
-        </div>
-    </section>
+</div>
+</section>
 
     <div class="banner"></div>
     <section class="modal-footer">
 
-                   <p class="copyright text-muted small text-center">&copy; Jan Vokrouhlecký 2017</p>
+                   <p class="copyright text-muted small text-center">&copy; Ludmiła Kierczak 2017</p>
                     <p class="text-muted small text-center">Page by  <a href="http://nataliak.cz/" target="_blank">nataliak</a></p>
 
 
