@@ -44,12 +44,6 @@ require 'email.php';
                         <a href="#omnie">O mnie</a>
                     </li>
                     <li>
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#rekomendacje">Rekomendacje</a>
-                    </li>
-                    <li>
                         <a href="#kontakt">Kontakt</a>
                     </li>
                 </ul>
@@ -63,7 +57,7 @@ require 'email.php';
                 <div class="col-lg-12">
                     <div class="intro-message">
                         <h1>Ludmiła Kierczak</h1>
-                        <h3>Kierownik produkcji</h3>
+                        <h3>Asystent produkcji / Kierownik produkcji</h3>
                         <hr class="intro-divider">
                     </div>
                 </div>
@@ -82,90 +76,29 @@ require 'email.php';
          </div>
         
  <div class="row">
- <div class="col-lg-12 col-sm-12 text-center">
-<p>Lorem ipsum – tekst składający się z łacińskich i quasi-łacińskich wyrazów, mający korzenie w klasycznej łacinie, wzorowany na fragmencie traktatu Cycerona „O granicach dobra i zła” (De finibus bonorum et malorum) napisanego w 45 r. p.n.e. Tekst jest stosowany do demonstracji krojów pisma (czcionek, fontów), kompozycji kolumny itp. Po raz pierwszy został użyty przez nieznanego drukarza w XVI w.
+      <div class="col-lg-2 col-sm-2 text-center">
+          <img src="img/aboutme.jpg" class="cvphoto">
+          </div>
+ <div class="col-lg-10 col-sm-10 text-center">
+<p>Ukończyłam studia w PWSFTviT w Łodzi na kierunku Organizacja produkcji filmowej i telewizyjnej oraz Program Script w Szkole Wajdy. Prowadzę firmę Lukier Ludmiła Kierczak.
 
-Tekst w obcym języku pozwala skoncentrować uwagę na wizualnych aspektach tekstu, a nie jego znaczeniu.
+Doświadczenie zawodowe zdobywałam podczas produkcji filmów krótkometrażowych oraz w roli kierownika produkcji teledysków i asystenta produkcji reklam. Pełniłam również funkcję drugiego reżysera pełnometrażowego filmu “W spirali” w reżyserii Konrada Aksinowicza.
+Współpracowałam podczas produkcji słuchowiska „Kim jest Max Winckler?” jako koordynator produkcji oraz konsultant scenariusza. 
 
-W łacinie niektóre z często występujących w językach nowożytnych liter używane były sporadycznie (k, z), bądź nie było ich wcale (w), stąd niektóre wariacje tego tekstu mogą zawierać także wyrazy z tymi literami, aby również i one były zademonstrowane.</p>
+Obecnie pracuję jako asystent producenta w okresie developmentu pełnometrażowych filmów fabularnych oraz jako asystent produkcji. 
+</p>
+</div>
+<div class="col-lg-12 col-sm-12 text-center">
 <a href="http://www.filmpolski.pl/fp/index.php?osoba=11121901" class="btn btn-default" role="button" target="_blank">Mój profil na filmpolski.pl</a>
 </div>
+
         </div>
         </div>
         </div>
         </div>
     </section>
 
-    <section class="portfolio">
-        <a  name="portfolio"></a>
-        <div class="content-section-b">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-sm-12">
-                        <h2 class="text-center">PORTFOLIO</h2>
-                        <hr class="intro-divider">
-
-            </div>
-
-                <div class="container">
-                    <div class="row">
-                        <h3 class="section-heading text-center">Moje dotychczasowe portfolio:</h3>
-                        <div class="container">
-  <div class="row">
-    <div class="col-sm-6">
-      <h2 class="text-center">W spirali</h2>
-<div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0d-LJxUB190"></iframe>
-</div>
-  <p class="text-center">Drugi reżyser w filmie "W spirali"</p>
-    </div>
   
-    <div class="col-sm-6">
-      <h2 class="text-center">W spirali</h2>
-<div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0d-LJxUB190"></iframe>
-</div>
-  <p class="text-center">Drugi reżyser w filmie "W spirali"</p>
-    </div>
-  </div>
-</div>
-                        
-                    </div>
-                </div>
-                </div>
-            </div>
-            </div>
-    </section>
-
-
-
-
-    <section class="rekomendacje">
-        <a  name="rekomendacje"></a>
-    <div class="content-section-a">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-sm-12 text-center">
-                    <h2 class="section-heading">REKOMENDACJE</h2>
-                    <hr class="intro-divider">
-                </div>
-                <div class="row">
-                <div class="col-md-4">
-                  <p>Lorem ipsum – tekst składający się z łacińskich i quasi-łacińskich wyrazów, mający korzenie w klasycznej łacinie, wzorowany na fragmencie traktatu Cycerona „O granicach dobra i zła” (De finibus bonorum et malorum) napisanego w 45 r. p.n.e. Tekst jest stosowany do demonstracji krojów pisma (czcionek, fontów), kompozycji kolumny itp. Po raz pierwszy został użyty przez nieznanego drukarza w XVI w.</p>
-                </div>
-                    <div class="col-md-4">
-                         <p>Lorem ipsum – tekst składający się z łacińskich i quasi-łacińskich wyrazów, mający korzenie w klasycznej łacinie, wzorowany na fragmencie traktatu Cycerona „O granicach dobra i zła” (De finibus bonorum et malorum) napisanego w 45 r. p.n.e. Tekst jest stosowany do demonstracji krojów pisma (czcionek, fontów), kompozycji kolumny itp. Po raz pierwszy został użyty przez nieznanego drukarza w XVI w.</p>
-                    </div>
-                     <div class="col-md-4">
-                         <p>Lorem ipsum – tekst składający się z łacińskich i quasi-łacińskich wyrazów, mający korzenie w klasycznej łacinie, wzorowany na fragmencie traktatu Cycerona „O granicach dobra i zła” (De finibus bonorum et malorum) napisanego w 45 r. p.n.e. Tekst jest stosowany do demonstracji krojów pisma (czcionek, fontów), kompozycji kolumny itp. Po raz pierwszy został użyty przez nieznanego drukarza w XVI w.</p>
-                    </div>
-            </div>
-        </div>
-        </div>
-    </div>
-    </section>
-
-
   <section class="kontakt">
         <a  name="kontakt"></a>
     <div class="content-section-b">
@@ -176,14 +109,9 @@ W łacinie niektóre z często występujących w językach nowożytnych liter u�
                     <h2>KONTAKT</h2>
                    <hr class="intro-divider">
                     <div class="row">
-                        <div class="col-lg-6 text-center">
-                            <h3>O mnie</h3>
-                            <img class="cvphoto" src="img/profile.png" alt="Zdjęcie profilowe">
-                            <p id="aboutme">Lorem ipsum – tekst składający się z łacińskich i quasi-łacińskich wyrazów, mający korzenie w klasycznej łacinie, wzorowany na fragmencie traktatu Cycerona „O granicach dobra i zła” (De finibus bonorum et malorum) napisanego w 45 r. p.n.e. Tekst jest stosowany do demonstracji krojów pisma (czcionek, fontów), kompozycji kolumny itp. Po raz pierwszy został użyty przez nieznanego drukarza w XVI w.</p></div>
-
-
-                        <div class="col-lg-6 text-center" id="form">
-                            <h3>Formularz kontaktowy</h3>
+                        
+                        <div class="col-lg-12 text-center" id="form">
+                            <h3>Zapraszam do kontaktu:</h3>
                             <?php if (!empty($msg)) {
                                 echo "<h5 class='text-center'>$msg</h5>";
                             } ?>
@@ -203,7 +131,7 @@ W łacinie niektóre z często występujących w językach nowożytnych liter u�
                                 </div>
 
                                 <div class="form-group">
-                                    <button type="submit" name="send-email" class="btn btn-default"  btn-lg">Submit</button>
+                                    <button type="submit" name="send-email" class="btn btn-default"  btn-lg">Wyślij</button>
                                 
                                 </div>
 

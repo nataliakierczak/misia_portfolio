@@ -17,7 +17,7 @@ html {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro.jpg) no-repeat center center;
+    background: url(../img/top.jpg) no-repeat center center;
     background-size: cover;
 }
 .intro-message {
@@ -78,7 +78,7 @@ html {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/intro.jpg) no-repeat center center;
+    background: url(../img/bottom.jpg) no-repeat center top;
     background-size: cover;
 }
 
@@ -140,19 +140,19 @@ img {
 }
 
 .content-section-b {
-    background-color: #5B5953;
+    background-color: white;
     padding: 50px 0;
-    color:white;
-      padding: 50px 0;
     
 }
 body{
-  font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
+  /*font-family: 'Raleway', sans-serif;*/
     font-size:1.5em;
     font-weight: bold;
 }
 h1, h2, h3, h4, h5{
-   font-family: 'Bowlby One SC', cursive;
+    font-family: 'Lato', sans-serif;
+  /* font-family: 'Bowlby One SC', cursive;*/
     font-weight: bold;
 }
 h1{
@@ -221,9 +221,9 @@ h4{
 }
 
 .cvphoto {
-    border-radius: 50%;
-    height: 25%;
-    width: 25%;
+    border-radius: 5%;
+    height: 90%;
+    width: 90%;
     padding: 2%;
     box-shadow: none;
 }

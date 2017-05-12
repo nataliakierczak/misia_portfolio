@@ -9,9 +9,10 @@ if (isset($_POST['send-email'])) {
     $mail = new PHPMailer;
     //Tell PHPMailer to use SMTP
     $mail->isSMTP();
+    $mail->SMTPSecure = 'ssl';
     $mail->Host = $config['host'];
     //Set the SMTP port number - likely to be 25, 465 or 587
-    $mail->Port = 25;
+    $mail->Port = 465;
     //Whether to use SMTP authentication
     $mail->SMTPAuth = true;
     //Username to use for SMTP authentication
@@ -19,11 +20,12 @@ if (isset($_POST['send-email'])) {
     //Password to use for SMTP authentication
     $mail->Password = $config['password'];
     //Set who the message is to be sent from
-    $mail->setFrom('jan@vokrouhlecky.cz', 'Website inquiry');
+    $mail->SMTPAuth = true;
+    $mail->setFrom('natalia.kierczak@gmail.com', 'Pytanie ze strony');
     //Set who the message is to be sent to
-    $mail->addAddress('jan@vokrouhlecky.cz', 'Jan');
+    $mail->addAddress('natalia.kierczak@gmail.com', 'Natalia');
     //Set the subject line
-    $mail->Subject = 'Mail from the website';
+    $mail->Subject = 'Pytanie ze strony';
     //Read an HTML message body from an external file, convert referenced images to embedded,
     //convert HTML into a basic plain-text alternative body
     $mail->msgHTML('');
@@ -38,9 +40,9 @@ EOT;
     if (!$mail->send()) {
         //The reason for failing to send will be in $mail->ErrorInfo
         //but you shouldn't display errors to users - process the error, log it on your server.
-        $msg = 'Odeslání zprávy se nezdařilo. Zkuste to prosím později.';
+        $msg = 'Wiadomość nie była odesłana. Proszę spróbować później.';
     } else {
-        $msg = 'Děkujeme! Vaše zpráva byla úspěšně odeslána.';
+        $msg = 'Dziękujemy! Wiadomość była odesłana.';
     }
 };
 
